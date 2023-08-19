@@ -4,12 +4,16 @@ table {
   border-spacing: 0;
   border: 100px;
 	border-color: black;
+	border-radius: 10px;
 
 }th, td {
-    border: 0px solid black; /* Add a 1px solid black border to cells */
-    padding: 8px; /* Add padding for cell content */
+    border: 0px solid black;
+    padding: 8px; 
   }
- table {
-width: 100%; 
-	 border-radius: 10px; /* Add rounded corners to table cells */
-  }
+
+
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+tr:first-child td { border-top-style: solid; }
+tr td:first-child { border-left-style: solid; }
+
