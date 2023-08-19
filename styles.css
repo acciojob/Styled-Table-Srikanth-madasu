@@ -1,1 +1,15 @@
 /* your code */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 100px;
+	border-color: black;
+
+}th, td {
+    border: 0px solid black; /* Add a 1px solid black border to cells */
+    padding: 8px; /* Add padding for cell content */
+  }
+ table {
+width: 100%; 
+	 border-radius: 10px; /* Add rounded corners to table cells */
+  }
